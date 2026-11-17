@@ -1,0 +1,64 @@
+{
+    "model": "resnet18",
+    "accuracy": 0.79,
+    "best_validation_accuracy": 0.9,
+    "weighted_precision": 0.8456325659095405,
+    "weighted_recall": 0.79,
+    "weighted_f1_score": 0.7471155457870471,
+    "test_samples": 1000,
+    "class_names": [
+        "CNV",
+        "DME",
+        "DRUSEN",
+        "NORMAL"
+    ],
+    "training_history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.6245649377388113,
+            "train_accuracy": 0.7823529411764706,
+            "validation_loss": 0.36624359250068667,
+            "validation_accuracy": 0.9
+        }
+    ],
+    "training_time_seconds": 127.73,
+    "classification_report": {
+        "CNV": {
+            "precision": 0.69164265129683,
+            "recall": 0.96,
+            "f1-score": 0.8040201005025126,
+            "support": 250.0
+        },
+        "DME": {
+            "precision": 0.9641434262948207,
+            "recall": 0.968,
+            "f1-score": 0.9660678642714571,
+            "support": 250.0
+        },
+        "DRUSEN": {
+            "precision": 1.0,
+            "recall": 0.232,
+            "f1-score": 0.37662337662337664,
+            "support": 250.0
+        },
+        "NORMAL": {
+            "precision": 0.7267441860465116,
+            "recall": 1.0,
+            "f1-score": 0.8417508417508418,
+            "support": 250.0
+        },
+        "accuracy": 0.79,
+        "macro avg": {
+            "precision": 0.8456325659095406,
+            "recall": 0.79,
+            "f1-score": 0.7471155457870471,
+            "support": 1000.0
+        },
+        "weighted avg": {
+            "precision": 0.8456325659095405,
+            "recall": 0.79,
+            "f1-score": 0.7471155457870471,
+            "support": 1000.0
+        }
+    }
+}
